@@ -5,7 +5,4 @@
 
 
 for i in range(2,10):
-    print(f"{i}: -> ", end="")
-    for el in range(i, 100, i):
-        print(f"{el},", end="")
-    print()
+    print(f"{i}: -> {99 // i}")
