@@ -20,7 +20,7 @@ array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
 
 c_array = [[], []]
 
-for item in range(SIZE):
+for item in range(len(array)):
     c_i = in_array(c_array[0], array[item])
     if c_i > -1:
         c_array[1][c_i] += 1

@@ -12,7 +12,7 @@ array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
 min_n = 0
 max_n = 0
 
-for i in range(SIZE):
+for i in range(len(array)):
     if array[min_n] > array[i]:
         min_n = i
     if array[max_n] < array[i]:

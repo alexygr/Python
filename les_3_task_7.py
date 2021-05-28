@@ -13,7 +13,7 @@ array = [random.randint(MIN_ITEM, MAX_ITEM+1) for _ in range(SIZE)]
 
 print(array)
 for ind in range(2):
-    i = SIZE - 1
+    i = len(array) - 1
     while i > ind:
         if array[i] < array[i-1]:
             array[i], array[i-1] = array[i-1], array[i]

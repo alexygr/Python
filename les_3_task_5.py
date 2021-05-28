@@ -13,7 +13,7 @@ SIZE = 20
 array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
 el = 0
 
-for i in range(SIZE):
+for i in range(len(array)):
     if 0 > array[i] > array[el] or array[el] > 0:
         el = i
 

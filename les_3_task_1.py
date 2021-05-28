@@ -4,5 +4,5 @@
 """
 
 
-for i in range(2,10):
+for i in range(2, 10):
     print(f"{i}: -> {99 // i}")

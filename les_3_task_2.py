@@ -14,7 +14,7 @@ SIZE = 9
 array = [random.randint(MIN_ITEM, MAX_ITEM) for _ in range(SIZE)]
 index_array = []
 
-for i in range(SIZE):
+for i in range(len(array)):
     if array[i] % 2 == 0:
         index_array.append(i)
 
