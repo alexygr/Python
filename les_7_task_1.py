@@ -24,8 +24,8 @@ def sort_bubble(data):
 MIN = -100
 MAX = 100
 LENGTH = 10
-array = [random.randint(MIN, MAX+1) for _ in range(LENGTH)]
+array = [random.randint(MIN, MAX-1) for _ in range(LENGTH)]
 
 print(array)
-sort_buble(array)
+sort_bubble(array)
 print(array)
